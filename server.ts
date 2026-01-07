@@ -1,11 +1,12 @@
-import express from 'express'
+import app from './src/app.js';
 
-const app = express();
+const startServer = ()=> {
 
+    const port = process.env.PORT || 3000;
 
+    app.listen(port, () => {
+        console.log(`listening on port: ${port}`);
+    });
+};
 
-
-
-
-
-export default app;
+startServer()

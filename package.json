@@ -1,35 +1,14 @@
 {
   "name": "expresso",
   "version": "1.0.0",
-  "description": "This is a express api project",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon server.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SahilSuman1011/Expresso.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/SahilSuman1011/Expresso/issues"
-  },
-  "homepage": "https://github.com/SahilSuman1011/Expresso#readme",
-  "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "@types/express": "^5.0.6",
-    "@types/node": "^25.0.3",
-    "eslint": "^9.39.2",
-    "globals": "^17.0.0",
-    "nodemon": "^3.1.11",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.52.0"
-  },
-  "dependencies": {
-    "express": "^5.2.1"
-  }
+  "packageManager": "pnpm@10.25.0"
 }
